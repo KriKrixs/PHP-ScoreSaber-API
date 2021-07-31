@@ -1,0 +1,25 @@
+{
+    "name": "krikrixs/php-scoresaber-api",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "A Simple PHP library to interact with ScoreSaber's API.",
+    "keywords": [ "KriKrixs", "PHP-ScoreSaber-API", "Krixs", "ScoreSaber", "BeatSaber", "Ranking" ],
+    "homepage": "https://github.com/KriKrixs/PHP-ScoreSaber-API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kylian BARUSSEAU",
+            "email": "kylian.barusseau@omedan.com",
+            "homepage": "https://github.com/KriKrixs",
+            "role": "Project Manager & Developer"
+        }
+    ],
+    "require": {
+        "php" : "~7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": { "KriKrixs\\": "lib/" }
+    }
+}
